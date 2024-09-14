@@ -17,12 +17,6 @@ html {
 
 }
 
-/* .table {
-    border: 4px dashed orange;
-    padding: 1em;
-    margin:1em;
-} */
-
 .header-container {
     border: 50px;
     border-image: linear-gradient(45deg, #55679C, #7C93C3, #1E2A5E) 1;
@@ -36,9 +30,9 @@ header {
 }
 
 .main-container {
-    border: 5px solid #55679C; /* Adjust thickness and color */
-    padding: 20px; /* Add some padding inside the container */
-    border-radius: 10px; /* Slightly rounded corners */
+    border: 5px solid #55679C; 
+    padding: 20px; 
+    border-radius: 10px; 
 }
 
 main {
