@@ -1,8 +1,78 @@
-html {
-    font-family: "times new roman", times, serif;
+.link-0 {
+    color: #7CF5FF;
+    transition: color 0.3s;
 }
 
-header {
+.link-0:hover {
+    color: #00CCDD;
+}
 
+.tan-text {
+    color: #E1D7B7;
+    padding: 2%;
+}
+
+html {
+    font-family: "times new roman", times, serif;
+
+}
+
+/* .table {
+    border: 4px dashed orange;
+    padding: 1em;
+    margin:1em;
+} */
+
+.header-container {
+    border: 50px;
+    border-image: linear-gradient(45deg, #55679C, #7C93C3, #1E2A5E) 1;
+    padding: 20px;
+    border-radius: 2px;
+    
+}
+header {
+    background-color: #55679C;
+    text-align: center;
+}
+
+.main-container {
+    border: 5px solid #55679C; /* Adjust thickness and color */
+    padding: 20px; /* Add some padding inside the container */
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+main {
+    background-color: #7C93C3;
+    margin: 5%;
+    padding: 2%;
+}
+
+#instructions >p {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+
+.link {
+    color: #7CF5FF;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #00CCDD;
+}
+
+.footer-container {
+    border: 50px;
+    border-image: linear-gradient(45deg, #55679C, #7C93C3, #1E2A5E) 1;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+footer {
+    background-color: #1E2A5E;
+    text-align: center;
+    padding: 1%;
+    
 }
 
