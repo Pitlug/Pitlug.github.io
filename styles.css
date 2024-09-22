@@ -51,6 +51,20 @@ main {
     justify-content: center;
 }
 
+#SPORTS {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+
+#TEXT-TABLE {
+    border: 5px dashed #55679C;
+}
+
+#TABLE-PHOTO {
+    padding-left: 25%; 
+    
+}
 .link {
     color: #4DA6C9;
     transition: color 0.3s;
