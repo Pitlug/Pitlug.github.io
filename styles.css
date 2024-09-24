@@ -57,7 +57,7 @@ main {
     justify-content: center;
 }
 
-#TEXT-TABLE {
+.TEXT-TABLE {
     border: 5px dashed #55679C;
 }
 
